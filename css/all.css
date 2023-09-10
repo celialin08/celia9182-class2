@@ -1,0 +1,262 @@
+
+*,*:before,*:after{
+    box-sizing:border-box; 
+    margin:0;
+    padding:0;
+}
+body {
+font-family: 'Bruno Ace SC', cursive;
+line-height: 1.5;
+   }
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.h-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.c-flex{
+    display: flex;
+}
+.a-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aic{
+    align-items: center;
+}
+.a-block{
+    display: block;
+}
+.c-m{
+    margin: 0 auto;
+}
+.p-m{
+    margin: 0 0 0 24px;
+}
+.header{
+    background-color: #000;
+}
+
+.nav{
+    width: 1297px;
+    padding:40px 0 0 0;
+}
+
+.nav-w{
+    width: 306px;
+}
+
+.nav a{
+    font-size: 16px;
+    color: #d1d1d1;
+    text-decoration:none;
+}
+/*slider*/
+.content,.slider,.about,.content-me,.myprojects{
+    width: 1297px;
+}
+.content-bg{
+    background-color: #000;
+}
+
+.slider-txt{
+    width: 636px;
+    padding: 232px 0;
+}
+.slider-txt p{
+    font-size: 64px;
+    display: block;
+    color: #FFFFFF;
+}
+.title-color{
+    font-size: 128px;
+    padding: 0 0 0 74px;
+    color: #00FFA3;
+}
+.people{
+    width: 636px;
+    padding: 72px 24px 72px 0;
+}
+.btn,.btn-myprojects{
+    padding: 12px 24px;
+    margin: 0 0 0 451px;
+    border-radius:24px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    &:hover{
+        background-color: #999999;
+    }
+}
+.btn a{
+    font-size: 16px;
+    color: #000000;
+    display: block;
+    text-decoration:none;
+    margin: 0 4px 0 0;
+}
+
+.btn-myprojects a{
+    font-size: 16px;
+    color: #000000;
+    display: block;
+    text-decoration:none;
+    margin: 0 4px 0 0;
+}
+.btn-myprojects a{
+    color: #ffffff;
+}
+.btn-myprojects{
+    margin: 75px 451px 0 25px;
+    background-color: #000000;
+    &:hover{
+        background-color: #363636;
+    }
+}
+/*introduction*/
+.introduction{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #00FFA3;
+    background: url(../images/background-img.png) no-repeat center top;
+}
+.introduction-txt,.about-txt{
+    width: 526px;
+    padding: 160px 24px 318px 0;
+}
+.about-txt{
+    padding: 160px 0 160px 0;
+}
+.content-txt{
+    padding: 0 0 0 24px;
+}
+
+
+.introduction-txt p,.about-txt p,.content-txt p,.content-me-txt p,.s-txt p{
+    font-size: 64px;
+    display: block;
+    color: #FFFFFF;
+    padding: 0 0 36px 0;
+}
+.about-txt p{
+    color:#000000;
+}
+.content-txt p{
+    padding: 160px 312px 16px 0;
+}
+.content-me-txt p{
+    padding: 0;
+}
+.s-txt p{
+    color: #000;
+    padding: 155px 220px 21px 136px;
+}
+.introduction-content,.about-content{
+    font-size: 24px;
+    display: block;
+    color: #FFFFFF;
+    padding: 0 0 32px 0;
+}
+.about-content{
+    color: #000000;
+}
+.myprojects-content{
+    font-size: 16px;
+    padding: 0 0 0 24px;
+}
+.people-img{
+    width: 746px;
+    margin: 160px auto;
+    display: flex;
+    justify-content:space-around;
+}
+/*about*/
+.about-card{
+    max-width: 636px;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    align-content: center;
+}
+.card{
+    width: 306px;
+    padding: 16px;
+    font-size: 20px;
+    margin:  0 0 24px 0;
+    border: 1px solid #e3e3e3;
+}
+.card-txt-min{
+    font-size: 16px;
+}
+/*content-me*/
+.content-me-bg{
+    width: 100%;
+    background-color: #000000;
+}
+.content-me{
+    margin: 0 auto;
+}
+.content-me p{
+    color:#FFFFFF;
+}
+.content-me-txt{
+    padding: 0;
+    display: flex;
+}
+.trending-icon{
+    padding: 0 0 0 5px;
+}
+.icon{
+    width: 526px;
+    padding: 92px 0 93px 0;
+}
+.btn-icon{
+    cursor: pointer;
+    margin: 0 8px 0 0;
+    border-radius: 45px;
+    &:hover{
+        box-shadow: inset 0px 0px 0px #fff,
+        inset 5px 0px 10px #f0f,
+        inset -0px 0px 10px #0ff,
+        inset 5px 0px 10px #f0f,
+        inset -0px 0px 10px #0ff,
+        0px 0px 0px #fff,
+        0px 0px 10px #0ff,
+        -0px 0px 10px #f0f;
+    }
+}
+/*myprojects*/
+.pro-img01{
+    padding: 272px 0 160px 0;
+}
+.s-txt
+.txt{
+    display: flex;
+    margin: 0 0 0 20px;
+}
+.txt{
+    padding: 0;
+}
+.txt img{
+    padding: 0;
+    vertical-align:middle;
+}
+.pro-list{
+}
+
+.pro-list img{
+    padding: 0;
+    vertical-align:middle;
+}
+.pro-list-img{
+    margin: 27px 0 0 20px;
+}
+.footer{
+    padding: 40px 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
